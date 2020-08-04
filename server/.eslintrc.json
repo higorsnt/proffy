@@ -1,0 +1,22 @@
+{
+	"env": {
+		"es2020": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 11,
+		"sourceType": "module"
+	},
+	"plugins": ["@typescript-eslint"],
+	"rules": {
+		"no-var": "error",
+		"linebreak-style": ["error", "unix"],
+		"eqeqeq": "error",
+		"comma-dangle": ["error", "always-multiline"],
+		"import/no-mutable-exports": 0,
+		"no-labels": 0,
+		"no-restricted-syntax": 0
+	}
+}
