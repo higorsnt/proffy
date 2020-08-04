@@ -5,7 +5,7 @@
   "jsxSingleQuote": false,
   "trailingComma": "es5",
   "tabWidth": 2,
-  "useTabs": false,
+  "useTabs": true,
   "quoteProps": "as-needed",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,

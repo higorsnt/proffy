@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 
 import './styles.css';
 
 import whastappIcon from '../../assets/images/icons/whatsapp.svg';
 
-function TeacherItem() {
+function TeacherItem(): ReactElement {
   return (
     <article className="teacher-item">
       <header>
@@ -23,7 +23,9 @@ function TeacherItem() {
       </p>
       <footer>
         <p>
-          Preço/hora <strong>R$ 80,00</strong>
+          Preço/hora 
+          {' '}
+          <strong>R$ 80,00</strong>
         </p>
         <button type="button">
           <img src={whastappIcon} alt="Whatsapp" />
