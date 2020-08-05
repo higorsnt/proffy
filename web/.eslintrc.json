@@ -40,6 +40,12 @@
 		"no-labels": 0,
 		"no-restricted-syntax": 0,
 		"react/require-default-props": [2, { "forbidDefaultForRequired": false, "ignoreFunctionalComponents": true }],
-		"jsx-a11y/label-has-associated-control": [0]
+    "jsx-a11y/label-has-associated-control": [0],
+    "react/jsx-props-no-spreading": "off",
+    "promise/always-return": "off",
+    "promise/catch-or-return": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/no-array-index-key": "off",
+    "no-alert": "off"
 	}
 }
